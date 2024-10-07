@@ -34,7 +34,7 @@ public class MovieController {
 		// incoming movie needs to be assigned an id, regardless if
 		// one is provided already. It should be 1 more than the max id 
 		// of all the movie ids.
-		System.out.println(movie);
+		//System.out.println(movie);
 		int maxId = 0;
 		for (Movie m: movies) {
 			maxId = Math.max(maxId, m.getId());
